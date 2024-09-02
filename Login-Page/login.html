@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-Page</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Eczar:wght@400..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="page-1">
+<div class="container">
+    <div class="login-page">
+            <!----Text-->
+        <div class="headings">
+            <h4>Welcome Back</h4>
+            <h2>Login Your Account</h2>
+        </div>
+        <!----Login-page-->
+        <div class="Login">
+        <label for="Email Id">Email: </label>
+        <input type="text" placeholder="Enter your Email Id">
+        <label for="Password">Password: </label>
+        <input type="password" placeholder="Enter the password">
+        </div>
+        <!----Footer-->
+        <div class="footer">
+        
+        <button onclick="reg()">Login</button>
+        <script>function reg(){
+        Swal.fire("You've logged in!");
+        }</script>
+        <a href="sign-up.html">Create New Account?</a>
+    </div>
+</div>
+<div class="image-container">
+    <img src="images/welcome page.png" alt=" Image">
+  </div>
+  </div>
+ 
+</body>
+</html>
